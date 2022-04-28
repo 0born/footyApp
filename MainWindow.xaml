@@ -54,7 +54,7 @@
         </Button>
         <Label Content="QTR:" HorizontalAlignment="Left" Margin="39,3,0,0" VerticalAlignment="Top"/>
         <Label Content="TIMER:" HorizontalAlignment="Left" Margin="31,127,0,0" VerticalAlignment="Top"/>
-        <Label Content="FootyScores v1.7a by Lewis Oborn" HorizontalAlignment="Center" Margin="0,626,0,0" VerticalAlignment="Top" Width="184"/>
+        <Label Content="FootyScores v2.0 by Lewis Oborn" HorizontalAlignment="Center" Margin="0,629,0,0" VerticalAlignment="Top" Width="184" FontSize="11"/>
 
     </Grid>
 </Window>

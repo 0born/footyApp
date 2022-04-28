@@ -106,16 +106,16 @@ namespace FootyScores
             */
 
             //two files for team totalScores
-            TextWriter txtTotal1 = new StreamWriter("C:\\demos\\team1Total.txt");
-            TextWriter txtTotal2 = new StreamWriter("C:\\demos\\team2Total.txt");
+            TextWriter txtTotal1 = new StreamWriter("C:\\demos\\team1Points.txt");
+            TextWriter txtTotal2 = new StreamWriter("C:\\demos\\team2Points.txt");
             txtTotal1.Write(total1.Content);
             txtTotal2.Write(total2.Content);
             txtTotal1.Close();
             txtTotal2.Close();
 
-            // two files for the scores
-            TextWriter txt1 = new StreamWriter("C:\\demos\\footyScores1.txt");
-            TextWriter txt2 = new StreamWriter("C:\\demos\\footyScores2.txt");
+            // two files for the total scores
+            TextWriter txt1 = new StreamWriter("C:\\demos\\team1Total.txt");
+            TextWriter txt2 = new StreamWriter("C:\\demos\\team2Total.txt");
 
             string scores1 = String.Format("{0, -2} {1, -2}  {2}", goalTotal1.Content, behindTotal1.Content, total1.Content);
             string scores2 = String.Format("{0, -2} {1, -2}  {2}", goalTotal2.Content, behindTotal2.Content, total2.Content);
@@ -124,6 +124,22 @@ namespace FootyScores
             txt2.Write(scores2);
             txt1.Close();
             txt2.Close();
+
+            //individual files for goals and behinds
+            TextWriter txtGoals1 = new StreamWriter("C:\\demos\\team1Goals.txt");
+            TextWriter txtGoals2 = new StreamWriter("C:\\demos\\team2Goals.txt");
+            txtGoals1.Write(goalTotal1.Content);
+            txtGoals2.Write(goalTotal2.Content);
+            txtGoals1.Close();
+            txtGoals2.Close();
+
+            TextWriter txtBehinds1 = new StreamWriter("C:\\demos\\team1Behinds.txt");
+            TextWriter txtBehinds2 = new StreamWriter("C:\\demos\\team2Behinds.txt");
+            txtBehinds1.Write(behindTotal1.Content);
+            txtBehinds2.Write(behindTotal2.Content);
+            txtBehinds1.Close();
+            txtBehinds2.Close();
+
 
             //save team names
             StreamWriter teamName1 = new StreamWriter("C:\\demos\\teamName1.txt");

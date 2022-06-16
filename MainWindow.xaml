@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="LIVE STREAM FOOTY SCORES" Height="700" Width="200">
     <Grid>
-        <Button x:Name="goal_button1" Content="GOAL" HorizontalAlignment="Left" Margin="13,341,0,0" VerticalAlignment="Top" Height="48" Width="68" Click="goal1_Click"/>
-        <Button x:Name="behind_button1" Content="BEHIND" HorizontalAlignment="Left" Margin="103,341,0,0" VerticalAlignment="Top" Height="48" Width="68" Click="behind_button1_Click"/>
+        <Button x:Name="goal_button1" Content="GOAL" HorizontalAlignment="Left" Margin="13,331,0,0" VerticalAlignment="Top" Height="48" Width="68" Click="goal1_Click"/>
+        <Button x:Name="behind_button1" Content="BEHIND" HorizontalAlignment="Left" Margin="103,331,0,0" VerticalAlignment="Top" Height="48" Width="68" Click="behind_button1_Click"/>
         <Button x:Name="goal_button2" Content="GOAL" HorizontalAlignment="Left" Margin="11,510,0,0" VerticalAlignment="Top" Height="48" Width="64" Click="goal_button2_Click"/>
         <Button x:Name="behind_button2" Content="BEHIND" HorizontalAlignment="Left" Margin="103,510,0,0" VerticalAlignment="Top" Height="48" Width="67" Click="behind_button2_Click"/>
         <Label x:Name="goalTotal1" Content="  0" HorizontalAlignment="Left" Margin="11,294,0,0" VerticalAlignment="Top" FontSize="20"/>
@@ -21,8 +21,8 @@
         <Button x:Name="_2ndQ" Content="2" HorizontalAlignment="Left" Margin="107,30,0,0" VerticalAlignment="Top" Height="36" Width="43" Click="_2ndQ_Click" FontSize="18"/>
         <Button x:Name="_3rd" Content="3" HorizontalAlignment="Left" Margin="36,86,0,0" VerticalAlignment="Top" Height="36" Width="40" Click="_3rd_Click" FontSize="18"/>
         <Button x:Name="_4th" Content="4" HorizontalAlignment="Left" Margin="107,86,0,0" VerticalAlignment="Top" Height="36" Width="43" Click="_4th_Click" FontSize="18"/>
-        <Button x:Name="minusGoal1" Content="- goal" HorizontalAlignment="Left" Margin="13,394,0,0" VerticalAlignment="Top" Width="68" Height="25" Click="minusGoal1_Click"/>
-        <Button x:Name="minusBehind1" Content="- behind" HorizontalAlignment="Left" Margin="103,394,0,0" VerticalAlignment="Top" Height="25" Width="68" Click="minusBehind1_Click"/>
+        <Button x:Name="minusGoal1" Content="- goal" HorizontalAlignment="Left" Margin="13,386,0,0" VerticalAlignment="Top" Width="68" Height="25" Click="minusGoal1_Click"/>
+        <Button x:Name="minusBehind1" Content="- behind" HorizontalAlignment="Left" Margin="103,386,0,0" VerticalAlignment="Top" Height="25" Width="68" Click="minusBehind1_Click"/>
         <Button x:Name="minusGoal2" Content="- goal" HorizontalAlignment="Left" Margin="10,563,0,0" VerticalAlignment="Top" Height="26" Width="64" Click="minusGoal2_Click"/>
         <Button x:Name="minusBehind2" Content="- behind" HorizontalAlignment="Left" Margin="103,563,0,0" VerticalAlignment="Top" Height="25" Width="67" Click="minusBehind2_Click"/>
         <Label x:Name="TimeDisplay" Content="00:00" HorizontalAlignment="Left" Margin="94,122,0,0" VerticalAlignment="Top" Width="62" FontSize="20"/>
@@ -32,7 +32,7 @@
         <Label x:Name="qtrDisplay" Content="1st" HorizontalAlignment="Left" Margin="107,-3,0,0" VerticalAlignment="Top" Height="32" Width="48" FontSize="20"/>
         <TextBox x:Name="team1Name" HorizontalAlignment="Left" Margin="32,256,0,0" Text="Team 1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="38" FontSize="20"/>
         <TextBox x:Name="team2Name" HorizontalAlignment="Left" Margin="30,431,0,0" Text="Team 2" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="37" FontSize="20"/>
-        <Button x:Name="saveNames" Content="Save Names" HorizontalAlignment="Left" Margin="40,219,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.02,0.038" Height="30" Width="106" Click="saveNames_Click">
+        <Button x:Name="saveNames" Content="Save Names" HorizontalAlignment="Left" Margin="37,216,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.02,0.038" Height="30" Width="106" Click="saveNames_Click">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -55,6 +55,10 @@
         <Label Content="QTR:" HorizontalAlignment="Left" Margin="39,3,0,0" VerticalAlignment="Top"/>
         <Label Content="TIMER:" HorizontalAlignment="Left" Margin="31,127,0,0" VerticalAlignment="Top"/>
         <Label Content="FootyScores v2.0 by Lewis Oborn" HorizontalAlignment="Center" Margin="0,629,0,0" VerticalAlignment="Top" Width="184" FontSize="11"/>
+        <Rectangle HorizontalAlignment="Center" Height="1" Margin="0,127,0,0" Stroke="Black" VerticalAlignment="Top" Width="200"/>
+        <Rectangle HorizontalAlignment="Center" Height="1" Margin="0,203,0,0" Stroke="Black" VerticalAlignment="Top" Width="200"/>
+        <Rectangle HorizontalAlignment="Center" Height="1" Margin="0,421,0,0" Stroke="Black" VerticalAlignment="Top" Width="200"/>
+
 
     </Grid>
 </Window>
